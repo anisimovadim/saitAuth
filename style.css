@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+*{
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    overflow: hidden;
+    font-family: "Madimi One", sans-serif;
+}
+.container{
+    display: flex;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+.block-image{
+    height: 100vh;
+    overflow: hidden;
+}
+img{
+    height: 100%;
+}
+form{
+    width: 400px;
+    margin: auto;
+}
+h2{
+    text-align: center;
+    margin-bottom: 70px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px rgb(142, 142, 142) solid;
+    outline: none;
+    transition: all 0.3s;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+    background-position: 97% center;
+    margin-bottom: 15px;
+}
+.email{
+    background-image: url("mail.png");
+}
+.password{
+    background-image: url("key.png");
+}
+input:focus{
+    border: 2px rgb(125, 188, 195) solid;
+    transition: all 0.3s;
+}
+.btn{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+}
+.btn-login{
+    background-color: rgb(125, 188, 195);
+    border: none;
+    color: white;
+}
+.btn-google{
+    background-color: white;
+    background-image: url("google.png");
+    background-repeat: no-repeat;
+    background-position: 30%;
+}
+a{
+    color: rgb(125, 188, 195);
+    text-decoration: none;
+}
+.quest{
+    margin-top: 15px;
+    text-align: center;
+}
+.line{
+    width: 70px;
+    height: 2px;
+    background-color: black;
+}
+.Or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
